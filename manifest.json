@@ -1,0 +1,100 @@
+{
+  "name": "Discord Sunucuları",
+  "short_name": "dcsv.me",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+
+    },
+    {
+      "src": "images/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "index.php",
+  "scope": "/",
+  "background_color": "#161616",
+  "theme_color": "#5765f2",
+  "display": "standalone",
+  "description": "Discord Sunucu, sunucularınızı geniş kitlelere duyurabilmenizi sağlayan bir sitedir.",
+  "dir": "ltr",
+  "lang": "tr",
+  "orientation": "natural",
+  "handle_links": "auto",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "protocol_handlers": [],
+  "shortcuts": [
+    {
+      "name": "Top 100",
+      "url": "/en-iyi-100-sunucu"
+    },
+    {
+      "name": "Yorumlar",
+      "url": "/yorumlar"
+    }
+  ],
+  "scope_extensions": [
+    {"origin": "dcsv.me"},
+    {"origin": "discordsv.com"}
+  ],
+  "categories": [
+    "education",
+    "games",
+    "music",
+    "social",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/1.png",
+      "sizes": "2880x1530",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "images/screenshots/2.png",
+      "sizes": "750x1330",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/3.png",
+      "sizes": "748x1332",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/4.png",
+      "sizes": "756x1348",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/5.png",
+      "sizes": "752x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/6.png",
+      "sizes": "752x1330",
+      "type": "image/png"
+    }
+  ]
+}
